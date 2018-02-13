@@ -11,7 +11,7 @@ Some of the features demonstrated in this project are:
 
 - Automatic Model Mapping - Using AutoMapper to map Entity objects to dtos (Data Transfer Objects) :
 
- 	var dto = _mapper.Map<Message, MessageDto>(entity);
+ 	`var dto = _mapper.Map<Message, MessageDto>(entity);`
                     
 - Web Api - using full set of actions to query database : GET, POST, PUT, DELETE
 
@@ -41,7 +41,7 @@ Some of the features demonstrated in this project are:
 
 	`public IEnumerable<Message> GetPageOfMessages(MessageSearchDto s, Expression<Func<Message, bool>> predicate)`
 
-- Serverside Sorting implemented using c# extension methods inside Web.Data.ExtIQueryable
+- Serverside Sorting implemented using c# extension methods inside `Web.Data.ExtIQueryable`
 
 - Entity Framework - Custom table naming and modularization of tables by using sql server schemas
 
